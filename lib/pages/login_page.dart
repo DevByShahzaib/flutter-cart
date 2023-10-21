@@ -66,7 +66,6 @@ class _LoginScreenState extends State<LoginScreen> {
                         return null;
                       },
                       onChanged: (value) {
-                        name = value;
                         setState(() {});
                       },
                     ),
